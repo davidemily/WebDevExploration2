@@ -1,23 +1,25 @@
-Exploration #2: Create PHP API that sends emails
+# Exploration #2: Create PHP API that sends emails
 
-Resources
+## Resources
 
  https://secure.php.net/manual/en/function.mail.php (Links to an external site.)
  http://researchhubs.com/post/computing/linux-basic/enable-php-mail-function-to-work-on-ubuntu.html (Links to an external site.)
  (Links to an external site.) https://secure.php.net/manual/en/reserved.variables.get.php (Links to an external site.)
-Components
+
+## Components
 
 For this exercise, I used my existing Ubuntu 16.04, installed the 'sendmail' feature, updated my server to be used as an email server, and created an endpoint in PHP to server as a collection for email.
 
-Troubleshooting
+## Troubleshooting
 
 I ended up using PHP's default mail() function to finish this task. I originally had planned on using PHPMailer(https://github.com/PHPMailer/PHPMailer (Links to an external site.)) in order to do this. PHPMailer is supposed to handle larger email loads faster and also allows for HTML emails. Unfortunately, even after following the documentation on the Github, I was unable to have PHPMailer use a test Yahoo email account to send messages. This led me to setting up my personal server as an email server. After that, the PHP documentation is rather straight-forward and very helpful.
 
-Links
+## Links
 
 https://github.com/davidemily/WebDevExploration2 (Links to an external site.)
 https://thedavidemily.com/api/email/ (Links to an external site.)
-Journal
+
+## Journal
 
 I've recently been spending time creating HTML emails to send out for the student organizations I'm involved in. Since we've been spending class time going over PHP APIs, I wanted to take this opportunity to explore combining HTML emails and APIs to create an API that sends out emails for me.
 
